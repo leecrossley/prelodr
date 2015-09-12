@@ -58,6 +58,7 @@ $prelodr-color-yellow: #fdba2c;
   &#{$prelodr}-in {
     opacity: 1;
     visibility: visible;
+    z-index: 9999;
   }
 
   &#{$prelodr}-in > span > span {
